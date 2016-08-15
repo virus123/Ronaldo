@@ -1,0 +1,60 @@
+.section{
+    background-size: cover;
+}
+ #section1 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/1.jpg");
+        background-image: url(images/6.jpg);
+      }
+ #section2 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/2.jpg");
+     background-image: url(images/2.jpg);
+      }
+ #section3 {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/3.jpg");
+     background-image: url(images/3.jpg);
+       
+      }
+ #section4 {
+       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/4.jpg");
+        background-image: url(images/5.jpg);
+      }
+ #section5 {
+       background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/section1.jpg");
+     background-image: url(images/4.jpg);
+      }
+ #section6 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/section1.jpg");
+     background-image: url(images/8.jpg);
+      }
+p {
+         
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-size: 18px;
+  background: rgba(0,0,0,0.3);
+  color: white;
+  padding: 2rem;
+  width: 100%;
+  margin:2rem;
+  float:left; 
+
+      }
+.main {
+    color: aqua;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+      @media (min-width: 768px) {
+        .title {
+          font-family: 'Monofett', cursive;
+          font-size: 80px;
+        }
+      }
+
+      #pp-nav li .active span, .pp-slidesNav .active span {
+        background: #bbb;
+      }
+
+      #pp-nav span, .pp-slidesNav span {
+        border-color: #bbb !important;
+      }
